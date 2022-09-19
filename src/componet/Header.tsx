@@ -10,7 +10,12 @@ function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#">
+          <img
+            src="https://freshcart.codescandy.com/assets/images/logo/freshcart-logo.svg"
+            alt=""
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -30,7 +35,7 @@ function Header() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">Location</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
