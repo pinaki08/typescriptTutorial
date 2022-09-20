@@ -10,6 +10,8 @@ import "./App.css";
 import Footer from "./componet/Slider/Footer";
 import { Container } from "react-bootstrap";
 import SingleContainer from "./SingleContainer/SingleContainer";
+import FooterContainer from "./componet/Slider/FooterContainer";
+import FlushContainer from "./componet/Flush/ContainerFlush";
 function App() {
   return (
     <div className="App">
@@ -25,6 +27,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Container>
+        <FlushContainer />
+        <FooterContainer />
         <Footer />
       </BrowserRouter>
     </div>

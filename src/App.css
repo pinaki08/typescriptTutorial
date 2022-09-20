@@ -30,9 +30,8 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  height: 8rem;
-  background-color: brown;
-
+  height: o.5rem;
+  background-color: rgb(243, 249, 242);
 }
 
 .up {
@@ -40,4 +39,20 @@
   background-color: rgb(230, 239, 232);
   padding: 0.5rem;
   height: 2rem;
+  border-top: 0.5rem;
+}
+
+.footerup {
+  background-color: rgb(230, 239, 232);
+
+  height: 4rem;
+
+}
+
+.flushstyle {
+  background-color: rgb(230, 239, 232);
+
+  height: 17rem;
+  text-decoration-color: gray;
+  
 }

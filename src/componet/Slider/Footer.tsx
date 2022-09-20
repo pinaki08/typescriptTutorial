@@ -1,9 +1,12 @@
 import React from "react";
-import Footerstyle from "./Footerstyle";
+// import Footerstyle from "./Footerstyle";
+
 const Footer = () => {
   return (
     <div className="wrapper">
-      <Footerstyle /> <h6>&copy;{new Date().getFullYear()} </h6>{" "}
+
+        <p>&copy;{new Date().getFullYear()} © FreshCart eCommerce HTML Template. All rights reserved. Powered by Codescandy. </p>{" "}
+
     </div>
   );
 };
