@@ -1,7 +1,7 @@
+import React from "react";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-
 
 function Bgroup() {
   return (
@@ -15,7 +15,6 @@ function Bgroup() {
             variant={variant.toLowerCase()}
             title={variant}
           >
-            
             <Dropdown.Item eventKey="1">Home1</Dropdown.Item>
             <Dropdown.Item eventKey="2">Home2</Dropdown.Item>
             <Dropdown.Item eventKey="3" active>

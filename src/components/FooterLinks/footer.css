@@ -1,0 +1,11 @@
+.footerlinks {
+  color: #5c6c75;
+}
+
+.footerlinks:hover {
+  color: #0aad0a !important;
+}
+
+.footerTitle {
+  padding: 20px 0px;
+}

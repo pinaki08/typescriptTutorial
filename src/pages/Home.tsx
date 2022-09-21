@@ -1,10 +1,11 @@
-import Sliderone from "../componet/Slider/Sliderone";
+import { Container } from "react-bootstrap";
 
 function Home() {
   return (
     <div className="App">
-      <h1>home page</h1>
-      <Sliderone />
+      <Container>
+        <h1>home page</h1>
+      </Container>
     </div>
   );
 }

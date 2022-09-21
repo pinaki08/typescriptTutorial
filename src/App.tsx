@@ -1,25 +1,18 @@
 import React from "react";
-
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
 import Contact from "./pages/ContactUs";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Header from "./componet/Header";
-import Bgroup from "./Button/Buttonstyle";
+import Header from "./components/Header";
 import "./App.css";
-import Footer from "./componet/Slider/Footer";
+import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
-import SingleContainer from "./SingleContainer/SingleContainer";
-import FooterContainer from "./componet/Slider/FooterContainer";
-import FlushContainer from "./componet/Flush/ContainerFlush";
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <SingleContainer />
         <Header />
-
-        <Bgroup />
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -27,8 +20,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Container>
-        <FlushContainer />
-        <FooterContainer />
         <Footer />
       </BrowserRouter>
     </div>

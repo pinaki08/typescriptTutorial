@@ -1,36 +1,24 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import React from "react";
 
-function FlushContainer() {
+import {
+  FOOTER_LINKS_ONE,
+  FOOTER_LINKS_TWO,
+} from "../../utilities/footerlinks";
+import FooterLinks from "../FooterLinks";
+
+function FooterTop() {
   return (
     <div className="flushstyle">
       <Container>
         <Row>
           <Col>
-            <>
-              <b>Categories</b>
-            </>
-            <Row>Vegetables & Fruits</Row>
-            <Row>Breakfast & instant food</Row>
-            <Row>Bakery & Biscuits</Row>
-            <Row>Atta, rice & dal</Row>
-            <Row>Sauces & spreads</Row>
-            <Row>Organic & gourmet</Row>
-            <Row>Baby care</Row>
-            <Row>Cleaning essentials</Row>
-            <Row>Personal care</Row>
+            <FooterLinks title="Categories" linkItems={FOOTER_LINKS_ONE} />
           </Col>
           <Col>
-            <Row>Dairy, bread & eggs</Row>
-            <Row>Cold drinks & juices</Row>
-            <Row>Tea, coffee & drinks</Row>
-            <Row>Masala, oil & more</Row>
-            <Row>Chicken, meat & fish</Row>
-            <Row>Paan corner</Row>
-            <Row>Pharma & wellness</Row>
-            <Row>Home & office</Row>
-            <Row>Pet care</Row>
+            <FooterLinks title="-" linkItems={FOOTER_LINKS_TWO} />
           </Col>
           <Col>
             <b>Get to know us</b> <Row>Company</Row>
@@ -68,4 +56,4 @@ function FlushContainer() {
   );
 }
 
-export default FlushContainer;
+export default FooterTop;

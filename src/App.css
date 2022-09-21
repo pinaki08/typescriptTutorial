@@ -1,58 +1,28 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  /* box-sizing: border-box; */
-}
-
-.pic {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-
-  height: 8rem;
-  width: 16rem;
-
-  margin-bottom: 4rem;
-  margin-left: 3rem;
-  /* margin-right: 90px;
-  padding-right: 130px; */
-}
-
-.pics h3 {
-  /* text-decoration-color: black; */
-  color: green;
-  /* text-align: center; */
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: o.5rem;
-  background-color: rgb(243, 249, 242);
-}
-
-.up {
-  text-decoration-color: gray;
-  background-color: rgb(230, 239, 232);
-  padding: 0.5rem;
-  height: 2rem;
-  border-top: 0.5rem;
-}
-
-.footerup {
-  background-color: rgb(230, 239, 232);
-
-  height: 4rem;
-
+.headerTop {
+  background-color: #f0f3f2;
+  min-height: 30px;
 }
 
 .flushstyle {
-  background-color: rgb(230, 239, 232);
-
-  height: 17rem;
+  background-color: #f0f3f2;
   text-decoration-color: gray;
-  
+  padding: 20px 0px;
+}
+
+.center {
+  height: 17rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.alignRight {
+  align-items: right;
+  text-align: right;
+}
+.links {
+  text-decoration: none;
+}
+
+.headerMid {
+  height: 70px;
+  padding: 20px 10px;
 }
