@@ -1,0 +1,35 @@
+ [
+    {
+      "img": "https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+      "path": "/home",
+      "title": "baby care"
+    },
+
+
+    {
+      "img": "https://freshcart.codescandy.com/assets/images/products/product-img-2.jpg",
+        "path": "/home",
+      "title": "baby care"
+    },
+
+
+    {
+      "img": "https://freshcart.codescandy.com/assets/images/products/product-img-3.jpg",
+        "path": "#",
+      "title": "baby care"
+    },
+
+
+    {
+      "img": "https://freshcart.codescandy.com/assets/images/products/product-img-4.jpg",
+        "path": "#",
+      "title": "baby care"
+    },
+
+    {
+      "img": "https://freshcart.codescandy.com/assets/images/products/product-img-5.jpg",
+        "path": "#",
+      "title": "baby care"
+    }
+
+  ]
