@@ -26,3 +26,18 @@
   height: 70px;
   padding: 20px 10px;
 }
+.productlist {
+  padding: 10px 5px;
+}
+
+.item1 {
+  border-bottom: 0.5px solid;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-right: 0.5px solid;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.item1:hover {
+  color: chartreuse  ;
+}

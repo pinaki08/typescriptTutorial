@@ -4,7 +4,11 @@ import Col from "react-bootstrap/Col";
 import React from "react";
 
 import {
+  FOOTER_LINKS_FIVE,
+  FOOTER_LINKS_FOUR,
   FOOTER_LINKS_ONE,
+  FOOTER_LINKS_SIX,
+  FOOTER_LINKS_THREE,
   FOOTER_LINKS_TWO,
 } from "../../utilities/footerlinks";
 import FooterLinks from "../FooterLinks";
@@ -21,34 +25,28 @@ function FooterTop() {
             <FooterLinks title="-" linkItems={FOOTER_LINKS_TWO} />
           </Col>
           <Col>
-            <b>Get to know us</b> <Row>Company</Row>
-            <Row>About</Row>
-            <Row>Blog</Row>
-            <Row>Help Center</Row>
-            <Row>Our Value</Row>
+            <FooterLinks
+              title="Get to know us"
+              linkItems={FOOTER_LINKS_THREE}
+            />
           </Col>
           <Col>
-            <b>For Consumers</b> <Row>Payments</Row>
-            <Row>Shipping</Row>
-            <Row>Product Returns</Row>
-            <Row>FAQ</Row>
-            <Row>Shop Checkout</Row>
+            <FooterLinks
+              title="For Consumers"
+              linkItems={FOOTER_LINKS_FOUR}
+            />
           </Col>
           <Col>
-            <b>Become a Shopper</b>
-            <Row>Shopper Opportunities</Row>
-            <Row>Become a Shopper</Row>
-            <Row>Earnings</Row>
-            <Row>Ideas & Guides</Row>
-            <Row>New Retailers</Row>
+            <FooterLinks
+              title="Become a Shopper"
+              linkItems={FOOTER_LINKS_FIVE}
+            />
           </Col>
           <Col>
-            <b> Freshcart programs</b>
-            <Row>Freshcart programs</Row>
-            <Row>Gift Cards</Row>
-            <Row>Promos & Coupons</Row>
-            <Row>Freshcart Ads</Row>
-            <Row>Careers</Row>
+            <FooterLinks
+              title=" Freshcart programs"
+              linkItems={FOOTER_LINKS_SIX}
+            />
           </Col>
         </Row>
       </Container>

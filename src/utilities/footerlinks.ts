@@ -80,3 +80,97 @@ export const FOOTER_LINKS_TWO: IFooterLinks[] = [
     path: "#",
   },
 ];
+export const FOOTER_LINKS_THREE: IFooterLinks[] = [
+  {
+    text: "Compnay",
+    path: "#",
+  },
+  {
+    text: "About",
+    path: "#",
+  },
+  {
+    text: "blog",
+    path: "#",
+  },
+  {
+    text: "Help center",
+    path: "#",
+  },
+  {
+    text: "our value",
+    path: "#",
+  },
+];
+
+export const FOOTER_LINKS_FOUR: IFooterLinks[] = [
+  {
+    text: "payments",
+    path: "#",
+  },
+  {
+    text: "shipping",
+    path: "#",
+  },
+  {
+    text: "products and returns",
+    path: "#",
+  },
+  {
+    text: "FAQ",
+    path: "#",
+  },
+  {
+    text: "shop checkout",
+    path: "#",
+  },
+];
+
+
+
+
+export const FOOTER_LINKS_FIVE: IFooterLinks[] = [
+  {
+    text: "Shopper oppertunities",
+    path: "#",
+  },
+  {
+    text: "Become shopper",
+    path: "#",
+  },
+  {
+    text: "Earnings",
+    path: "#",
+  },
+  {
+    text: "Ideas & Guides",
+    path: "#",
+  },
+  {
+    text: "New Retailers",
+    path: "#",
+  },
+];
+
+export const FOOTER_LINKS_SIX: IFooterLinks[] = [
+  {
+    text: "Freshcarts programs",
+    path: "#",
+  },
+  {
+    text: "Gift cards",
+    path: "#",
+  },
+  {
+    text: "Promos and Cupons",
+    path: "#",
+  },
+  {
+    text: " Freshcart ads",
+    path: "#",
+  },
+  {
+    text: "Careers",
+    path: "#",
+  },
+];
